@@ -4,9 +4,14 @@ dvc init
 
 dvc add data_given/winequality.csv
 
+# Add changes to local git
 git add .
 
+# commit changes
 git commit -m 'first commit'
+
+# Push changes to github
+git push origin main
 
 # to run all the steps defined in dvc.yaml file
 dvc repro
