@@ -4,7 +4,7 @@ base:
   target_col: TARGET
 
 date_source:
-  s3_source: date_given/winequality.csv
+  s3_source: data_given/winequality.csv
 
 load_data:
   raw_dataset_csv: data/raw/winequality.csv

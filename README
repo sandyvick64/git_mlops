@@ -7,3 +7,6 @@ dvc add data_given/winequality.csv
 git add .
 
 git commit -m 'first commit'
+
+# to run all the steps defined in dvc.yaml file
+dvc repro
